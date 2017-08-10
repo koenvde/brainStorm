@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='css/styles.css' type='text/css' media='all' />
+  </head>
+  <body>
+    <div id="sidenav">
+	  <div id="logo"">
+	    <img src="images/EYlogo.png" />
+	  </div>
+	  <div id="hero">
+	    <img src="images/brain.png" />
+		<h1>Brainstorm tool</h1>
+	  </div>
+	  <div id="save">
+		<img src="images/dwnbtn.png" onclick="saveData()" />
+		<img src="images/clrbtn.png" onclick="clearData()" />
+	  </div>
+	</div>
+
+	<div id="main">
+	  <div id="main1" class="mainContent">
+		<div class="mainHeader">
+			<h1>First brainstorm topic</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<div class="mainForm">
+		  <textarea id="textarea1" onkeyup="storeData()"></textarea>
+		</div>
+	  </div>
+	  <div id="main2" class="mainContent">
+	    <div class="mainHeader">
+			<h1>Second brainstorm topic</h1>
+			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="mainForm">
+		  <textarea id="textarea2" onkeyup="storeData()"></textarea>
+		</div>
+	  </div>
+	  <div id="main3" class="mainContent">
+	    <div class="mainHeader">
+			<h1>Third brainstorm topic</h1>
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		</div>
+		<div class="mainForm">
+		  <textarea id="textarea3" onkeyup="storeData()"></textarea>
+		</div>
+	  </div>
+	  <div id="main4" class="mainContent">
+	    <div class="mainHeader">
+			<h1>Fourth brainstorm topic</h1>
+			<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="mainForm">
+		  <textarea id="textarea4" onkeyup="storeData()"></textarea>
+		</div>
+	  </div>
+	  <div id="main5" class="mainContent">
+	    <div class="mainHeader">
+			<h1>Fifth brainstorm topic</h1>
+			<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		</div>
+		<div class="mainForm">
+		  <textarea id="textarea5" onkeyup="storeData()"></textarea>
+		</div>
+	  </div>
+	</div>
+	
+	<div id="sections">
+	  <div id="btn1" class="sidebtn" onclick="clickBtn1()">
+		<div class="centerContainer">
+			<h1><span class="circleNumber">1</span></h1>
+			<p>Topic 1</p>
+		</div>
+	  </div>
+	  <div id="btn2" class="sidebtn" onclick="clickBtn2()">
+	    <div class="centerContainer">
+			<h1><span class="circleNumber">2</span></h1>
+			<p>Topic 2</p>
+		</div>
+	  </div>
+	  <div id="btn3" class="sidebtn" onclick="clickBtn3()">
+	    <div class="centerContainer">
+			<h1><span class="circleNumber">3</span></h1>
+			<p>Topic 3</p>
+		</div>
+	  </div>
+	  <div id="btn4" class="sidebtn" onclick="clickBtn4()">
+	    <div class="centerContainer">
+			<h1><span class="circleNumber">4</span></h1>
+			<p>Topic 4</p>
+		</div>
+	  </div>
+	  <div id="btn5" class="sidebtn" onclick="clickBtn5()">
+	    <div class="centerContainer">
+			<h1><span class="circleNumber">5</span></h1>
+			<p>Topic 5</p>
+		</div>
+	  </div>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/FileSaver.js"></script>
+  </body>
+</html>
